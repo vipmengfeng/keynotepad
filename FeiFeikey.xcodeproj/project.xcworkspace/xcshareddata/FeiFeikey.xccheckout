@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9F8A4D4F-DF29-4CCB-8480-E2757D60E6F4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FeiFeikey</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>23C3AB53-E4AC-4AEB-8F26-E959D1895B38</key>
+		<string>https://github.com/vipmengfeng/keynote-pad.git/trunk</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>FeiFeikey.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>23C3AB53-E4AC-4AEB-8F26-E959D1895B38</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>23C3AB53-E4AC-4AEB-8F26-E959D1895B38</key>
+		<string>https://github.com/vipmengfeng/keynote-pad.git</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/vipmengfeng/keynote-pad.git/trunk/FeiFeikey.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>23C3AB53-E4AC-4AEB-8F26-E959D1895B38</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryBranchesRelativeLocationKey</key>
+			<string>branches</string>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlRepositoryTrunkRelativeLocationKey</key>
+			<string>trunk</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>23C3AB53-E4AC-4AEB-8F26-E959D1895B38</string>
+			<key>IDESourceControlWCCName</key>
+			<string>keynote-pad</string>
+		</dict>
+	</array>
+</dict>
+</plist>
