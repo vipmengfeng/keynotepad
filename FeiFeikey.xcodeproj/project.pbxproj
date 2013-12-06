@@ -21,6 +21,11 @@
 		DD74D6E4184CC2A700CC8EFB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD74D6C3184CC2A700CC8EFB /* UIKit.framework */; };
 		DD74D6EC184CC2A700CC8EFB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD74D6EA184CC2A700CC8EFB /* InfoPlist.strings */; };
 		DD74D6EE184CC2A700CC8EFB /* FeiFeikeyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD74D6ED184CC2A700CC8EFB /* FeiFeikeyTests.m */; };
+		DD90073A1851B4BA00507EBD /* tableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD9007391851B4BA00507EBD /* tableViewController.m */; };
+		DD90073D1851C16300507EBD /* qq.png in Resources */ = {isa = PBXBuildFile; fileRef = DD90073B1851C16300507EBD /* qq.png */; };
+		DD90073E1851C16300507EBD /* youdao.png in Resources */ = {isa = PBXBuildFile; fileRef = DD90073C1851C16300507EBD /* youdao.png */; };
+		DD900741185207E000507EBD /* messageinfo.m in Sources */ = {isa = PBXBuildFile; fileRef = DD900740185207E000507EBD /* messageinfo.m */; };
+		DD900743185216DE00507EBD /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DD900742185216DE00507EBD /* libsqlite3.dylib */; };
 		DD9A4DB6184DDC86009E60E8 /* AESCrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = DD9A4DAD184DDC86009E60E8 /* AESCrypt.m */; };
 		DD9A4DB7184DDC86009E60E8 /* mainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD9A4DAF184DDC86009E60E8 /* mainViewController.m */; };
 		DD9A4DB8184DDC86009E60E8 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = DD9A4DB1184DDC86009E60E8 /* NSData+Base64.m */; };
@@ -61,6 +66,13 @@
 		DD74D6E9184CC2A700CC8EFB /* FeiFeikeyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FeiFeikeyTests-Info.plist"; sourceTree = "<group>"; };
 		DD74D6EB184CC2A700CC8EFB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DD74D6ED184CC2A700CC8EFB /* FeiFeikeyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeiFeikeyTests.m; sourceTree = "<group>"; };
+		DD9007381851B4BA00507EBD /* tableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tableViewController.h; sourceTree = "<group>"; };
+		DD9007391851B4BA00507EBD /* tableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tableViewController.m; sourceTree = "<group>"; };
+		DD90073B1851C16300507EBD /* qq.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qq.png; sourceTree = "<group>"; };
+		DD90073C1851C16300507EBD /* youdao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = youdao.png; sourceTree = "<group>"; };
+		DD90073F185207E000507EBD /* messageinfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = messageinfo.h; sourceTree = "<group>"; };
+		DD900740185207E000507EBD /* messageinfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = messageinfo.m; sourceTree = "<group>"; };
+		DD900742185216DE00507EBD /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		DD9A4DAC184DDC86009E60E8 /* AESCrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AESCrypt.h; sourceTree = "<group>"; };
 		DD9A4DAD184DDC86009E60E8 /* AESCrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AESCrypt.m; sourceTree = "<group>"; };
 		DD9A4DAE184DDC86009E60E8 /* mainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainViewController.h; sourceTree = "<group>"; };
@@ -82,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD900743185216DE00507EBD /* libsqlite3.dylib in Frameworks */,
 				DD74D6C2184CC2A700CC8EFB /* CoreGraphics.framework in Frameworks */,
 				DD74D6C4184CC2A700CC8EFB /* UIKit.framework in Frameworks */,
 				DD74D6C0184CC2A700CC8EFB /* Foundation.framework in Frameworks */,
@@ -123,6 +136,7 @@
 		DD74D6BE184CC2A700CC8EFB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DD900742185216DE00507EBD /* libsqlite3.dylib */,
 				DD74D6BF184CC2A700CC8EFB /* Foundation.framework */,
 				DD74D6C1184CC2A700CC8EFB /* CoreGraphics.framework */,
 				DD74D6C3184CC2A700CC8EFB /* UIKit.framework */,
@@ -134,18 +148,24 @@
 		DD74D6C5184CC2A700CC8EFB /* FeiFeikey */ = {
 			isa = PBXGroup;
 			children = (
+				DD90073B1851C16300507EBD /* qq.png */,
+				DD90073C1851C16300507EBD /* youdao.png */,
 				DD9A4DBB184DFB37009E60E8 /* MBProgressHUD.h */,
 				DD9A4DBC184DFB37009E60E8 /* MBProgressHUD.m */,
 				DD9A4DAC184DDC86009E60E8 /* AESCrypt.h */,
 				DD9A4DAD184DDC86009E60E8 /* AESCrypt.m */,
 				DD9A4DAE184DDC86009E60E8 /* mainViewController.h */,
 				DD9A4DAF184DDC86009E60E8 /* mainViewController.m */,
+				DD9007381851B4BA00507EBD /* tableViewController.h */,
+				DD9007391851B4BA00507EBD /* tableViewController.m */,
 				DD9A4DB0184DDC86009E60E8 /* NSData+Base64.h */,
 				DD9A4DB1184DDC86009E60E8 /* NSData+Base64.m */,
 				DD9A4DB2184DDC86009E60E8 /* NSData+CommonCrypto.h */,
 				DD9A4DB3184DDC86009E60E8 /* NSData+CommonCrypto.m */,
 				DD9A4DBE184DFCFF009E60E8 /* Checkmark.png */,
 				DD9A4DBF184DFCFF009E60E8 /* 37x-Checkmark@2x.png */,
+				DD90073F185207E000507EBD /* messageinfo.h */,
+				DD900740185207E000507EBD /* messageinfo.m */,
 				DD9A4DB4184DDC86009E60E8 /* NSString+Base64.h */,
 				DD9A4DB5184DDC86009E60E8 /* NSString+Base64.m */,
 				DD74D6CE184CC2A700CC8EFB /* AppDelegate.h */,
@@ -265,6 +285,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD74D6DB184CC2A700CC8EFB /* Images.xcassets in Resources */,
+				DD90073E1851C16300507EBD /* youdao.png in Resources */,
+				DD90073D1851C16300507EBD /* qq.png in Resources */,
 				DD74D6D3184CC2A700CC8EFB /* Main_iPhone.storyboard in Resources */,
 				DD74D6CA184CC2A700CC8EFB /* InfoPlist.strings in Resources */,
 				DD9A4DC0184DFCFF009E60E8 /* Checkmark.png in Resources */,
@@ -292,8 +314,10 @@
 				DD9A4DB7184DDC86009E60E8 /* mainViewController.m in Sources */,
 				DD74D6D0184CC2A700CC8EFB /* AppDelegate.m in Sources */,
 				DD9A4DBD184DFB37009E60E8 /* MBProgressHUD.m in Sources */,
+				DD90073A1851B4BA00507EBD /* tableViewController.m in Sources */,
 				DD9A4DBA184DDC86009E60E8 /* NSString+Base64.m in Sources */,
 				DD74D6CC184CC2A700CC8EFB /* main.m in Sources */,
+				DD900741185207E000507EBD /* messageinfo.m in Sources */,
 				DD9A4DB8184DDC86009E60E8 /* NSData+Base64.m in Sources */,
 				DD9A4DB9184DDC86009E60E8 /* NSData+CommonCrypto.m in Sources */,
 			);
