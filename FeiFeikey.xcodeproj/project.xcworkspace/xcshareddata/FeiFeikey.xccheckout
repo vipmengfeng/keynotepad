@@ -5,19 +5,23 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>9F8A4D4F-DF29-4CCB-8480-E2757D60E6F4</string>
+	<string>4C5BF6C5-5361-4825-B3CA-4F30FB850DE4</string>
 	<key>IDESourceControlProjectName</key>
 	<string>FeiFeikey</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>23C3AB53-E4AC-4AEB-8F26-E959D1895B38</key>
 		<string>https://github.com/vipmengfeng/keynote-pad.git/trunk</string>
+		<key>89277621-F806-44E6-8D8F-F6934073ADAC</key>
+		<string>https://github.com/vipmengfeng/keynotepad.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>FeiFeikey.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>23C3AB53-E4AC-4AEB-8F26-E959D1895B38</key>
+		<string>../../../keynote-pad</string>
+		<key>89277621-F806-44E6-8D8F-F6934073ADAC</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectRepositoryRootDictionary</key>
@@ -26,11 +30,11 @@
 		<string>https://github.com/vipmengfeng/keynote-pad.git</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/vipmengfeng/keynote-pad.git/trunk/FeiFeikey.xcodeproj</string>
+	<string>https://github.com/vipmengfeng/keynotepad.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>23C3AB53-E4AC-4AEB-8F26-E959D1895B38</string>
+	<string>89277621-F806-44E6-8D8F-F6934073ADAC</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -44,6 +48,14 @@
 			<string>23C3AB53-E4AC-4AEB-8F26-E959D1895B38</string>
 			<key>IDESourceControlWCCName</key>
 			<string>keynote-pad</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>89277621-F806-44E6-8D8F-F6934073ADAC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>keynotepad</string>
 		</dict>
 	</array>
 </dict>
