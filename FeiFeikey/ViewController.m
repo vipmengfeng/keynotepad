@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "messageinfo.h"
 #import "AESCrypt.h"
 #import "MBProgressHUD.h"
 @interface ViewController ()
@@ -38,7 +39,7 @@
     NSString *password = [defaults valueForKey:@"password"];
     NSString *AESpass =[AESCrypt decrypt:password password:@"pwd"];
     if([__uit.text isEqual:AESpass]){
-        [self performSegueWithIdentifier:@"mainViewController" sender:self];
+        [self performSegueWithIdentifier:@"tableViewController" sender:self];
     }else
     {
         __uit.backgroundColor=[UIColor redColor];
